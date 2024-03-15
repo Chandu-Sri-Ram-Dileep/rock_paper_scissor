@@ -46,9 +46,9 @@ function function2(){
      document.querySelector('.jio').innerHTML=`Wins:${score.wins}  Loses:${score.loses} Ties:${score.ties}`;
      document.querySelector(`.kia`).innerHTML=`
      you
-<img class="pga1" src="/thumbnails/${playermove}.jpeg">
+<img class="pga1" src="${playermove}.jpeg">
 VS
-<img class="pga2" src="/thumbnails/${computermove}.jpeg">
+<img class="pga2" src="${computermove}.jpeg">
 computer`;
      document.querySelector(`.mia`).innerHTML=`${result}`;
     /* alert("players move:"+ playermove + "\ncomputer's move:"+ computermove + "\nWins:"+ score.wins+ "\nloses:"+score.loses+ "\nties:"+score.ties);*/
