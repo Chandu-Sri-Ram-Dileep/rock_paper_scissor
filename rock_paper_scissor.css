@@ -1,0 +1,41 @@
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(72, 72, 72);
+    height: 100px;
+     align-items: center;
+}
+h3{
+    font-size: 48px;
+    font-style: italic;
+    margin-left: 50px;
+}
+button{
+    border-color: black;
+    border-width: 5px;
+    padding: 10px;
+}
+img{
+    height: 120px;
+    margin: 20px 20px 20px 20px;
+}
+.te{
+    display: flex;
+    width: 100%;
+    display: inline-block;
+}
+.hii{
+   padding: 5px 5px 5px 5px;
+   color:white;
+   background-color: rgb(212, 11, 11);
+   border: none;
+}
+.pga1,.pga2{
+    height: 120px;
+    margin: 20px 20px 20px 20px;
+}
+body{
+    background-color: rgb(122, 165, 84);
+    color: white;
+}
+
